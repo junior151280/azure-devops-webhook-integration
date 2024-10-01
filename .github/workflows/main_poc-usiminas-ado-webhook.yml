@@ -9,6 +9,8 @@ on:
       - main
   workflow_dispatch:
 
+env:
+  CS_PROJECT: "D:\\a\\azure-devops-webhook-integration\\azure-devops-webhook-integration\\AzureDevOpsWebhook.csproj"
 jobs:
   build:
     runs-on: windows-latest
@@ -25,7 +27,7 @@ jobs:
         run: dotnet build --configuration Release
 
       - name: dotnet publish
-        run: dotnet publish -c Release -o ${{env.DOTNET_ROOT}}/myapp
+        run: dotnet publish ${{env.CS_PROJECT}} -c Release -o ${{env.DOTNET_ROOT}}/myapp
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v4
