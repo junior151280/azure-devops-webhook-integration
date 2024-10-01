@@ -28,7 +28,7 @@ jobs:
         run: dotnet build ${{ github.workspace }}/AzureDevOpsWebhook.csproj  --no-restore --configuration Release
 
       - name: dotnet publish
-        run: dotnet publish ${{ github.workspace }}/AzureDevOpsWebhook.csproj --no-build -c Release -o ${{env.DOTNET_ROOT}}/myapp -f=net7.0
+        run: dotnet publish -c Release -o ${{env.DOTNET_ROOT}}/myapp -f=net7.0
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v4
