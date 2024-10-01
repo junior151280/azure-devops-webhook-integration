@@ -1,0 +1,6 @@
+@AzureDevOpsWebhook_HostAddress = http://localhost:5064
+
+GET {{AzureDevOpsWebhook_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

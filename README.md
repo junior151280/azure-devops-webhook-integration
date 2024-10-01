@@ -37,8 +37,8 @@ Ensure you have the following settings in your ```appsettings.json```:
     "AzureDevOpsApiUrl": "https://dev.azure.com/",
     "Organization": "your-organization"
   },
-  "MongoDB": {
-    "ConnectionString": "mongodb://localhost:27017",
+  "Database": {
+    "ConnectionString": "database://localhost:27017",
     "DatabaseName": "AzureDevOps"
   }
 }
