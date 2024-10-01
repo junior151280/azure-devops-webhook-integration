@@ -1,23 +1,23 @@
 {
   "subscriptionId": "a6cb5d4b-aefe-48a8-8d1b-05dbdf04e71f",
-  "notificationId": 2,
-  "id": "f931d841-c017-4e13-90fb-5e027614192e",
+  "notificationId": 14,
+  "id": "593d9ec0-e255-4446-be11-16e6e04dff79",
   "eventType": "workitem.updated",
   "publisherId": "tfs",
   "message": {
-    "text": "Product Backlog Item #870 (criar front end) transitioned to Committed by Jailton S. Sales Jr\r\n(https://juniorjailton.visualstudio.com/web/wi.aspx?pcguid=6f6d98c6-1c18-45e5-85ee-8c48822dd627&id=870)",
-    "html": "<a href=\"https://juniorjailton.visualstudio.com/web/wi.aspx?pcguid=6f6d98c6-1c18-45e5-85ee-8c48822dd627&amp;id=870\">Product Backlog Item #870</a> (criar front end) transitioned to Committed by Jailton S. Sales Jr",
-    "markdown": "[Product Backlog Item #870](https://juniorjailton.visualstudio.com/web/wi.aspx?pcguid=6f6d98c6-1c18-45e5-85ee-8c48822dd627&id=870) (criar front end) transitioned to Committed by Jailton S. Sales Jr"
+    "text": "Product Backlog Item #507 (criação do pipeline) updated by Jailton S. Sales Jr\r\n(https://juniorjailton.visualstudio.com/web/wi.aspx?pcguid=6f6d98c6-1c18-45e5-85ee-8c48822dd627&id=507)",
+    "html": "<a href=\"https://juniorjailton.visualstudio.com/web/wi.aspx?pcguid=6f6d98c6-1c18-45e5-85ee-8c48822dd627&amp;id=507\">Product Backlog Item #507</a> (cria&#231;&#227;o do pipeline) updated by Jailton S. Sales Jr",
+    "markdown": "[Product Backlog Item #507](https://juniorjailton.visualstudio.com/web/wi.aspx?pcguid=6f6d98c6-1c18-45e5-85ee-8c48822dd627&id=507) (criação do pipeline) updated by Jailton S. Sales Jr"
   },
   "detailedMessage": {
-    "text": "Product Backlog Item #870 (criar front end) transitioned to Committed by Jailton S. Sales Jr\r\n(https://juniorjailton.visualstudio.com/web/wi.aspx?pcguid=6f6d98c6-1c18-45e5-85ee-8c48822dd627&id=870)\r\n\r\n- New State: Committed\r\n",
-    "html": "<a href=\"https://juniorjailton.visualstudio.com/web/wi.aspx?pcguid=6f6d98c6-1c18-45e5-85ee-8c48822dd627&amp;id=870\">Product Backlog Item #870</a> (criar front end) transitioned to Committed by Jailton S. Sales Jr<ul>\r\n<li>New State: Committed</li></ul>",
-    "markdown": "[Product Backlog Item #870](https://juniorjailton.visualstudio.com/web/wi.aspx?pcguid=6f6d98c6-1c18-45e5-85ee-8c48822dd627&id=870) (criar front end) transitioned to Committed by Jailton S. Sales Jr\r\n\r\n* New State: Committed\r\n"
+    "text": "Product Backlog Item #507 (criação do pipeline) updated by Jailton S. Sales Jr\r\n(https://juniorjailton.visualstudio.com/web/wi.aspx?pcguid=6f6d98c6-1c18-45e5-85ee-8c48822dd627&id=507)\r\n\r\n",
+    "html": "<a href=\"https://juniorjailton.visualstudio.com/web/wi.aspx?pcguid=6f6d98c6-1c18-45e5-85ee-8c48822dd627&amp;id=507\">Product Backlog Item #507</a> (cria&#231;&#227;o do pipeline) updated by Jailton S. Sales Jr<ul></ul>",
+    "markdown": "[Product Backlog Item #507](https://juniorjailton.visualstudio.com/web/wi.aspx?pcguid=6f6d98c6-1c18-45e5-85ee-8c48822dd627&id=507) (criação do pipeline) updated by Jailton S. Sales Jr\r\n\r\n"
   },
   "resource": {
-    "id": 23,
-    "workItemId": 870,
-    "rev": 19,
+    "id": 11,
+    "workItemId": 507,
+    "rev": 8,
     "revisedBy": {
       "id": "45db2adc-e16c-41d5-a0ad-1354d604f274",
       "name": "Jailton S. Sales Jr <juniorjailton@hotmail.com>",
@@ -32,105 +32,82 @@
       "imageUrl": "https://juniorjailton.visualstudio.com/_apis/GraphProfile/MemberAvatars/aad.Mzc5OWM4MWMtZGM1NC03NjBhLWE5MDYtNzJlMjMwNDU1NTJi",
       "descriptor": "aad.Mzc5OWM4MWMtZGM1NC03NjBhLWE5MDYtNzJlMjMwNDU1NTJi"
     },
-    "revisedDate": "2024-09-30T22:52:40.123Z",
+    "revisedDate": "9999-01-01T00:00:00Z",
     "fields": {
       "System.Rev": {
-        "oldValue": 18,
-        "newValue": 19
+        "oldValue": 7,
+        "newValue": 8
       },
       "System.AuthorizedDate": {
-        "oldValue": "2024-05-16T19:04:50.173Z",
-        "newValue": "2024-09-30T22:52:39.577Z"
+        "oldValue": "2024-10-01T17:30:51.62Z",
+        "newValue": "2024-10-01T20:12:24.69Z"
       },
       "System.RevisedDate": {
-        "oldValue": "2024-09-30T22:52:39.577Z",
-        "newValue": "2024-09-30T22:52:40.123Z"
-      },
-      "System.State": {
-        "oldValue": "Approved",
-        "newValue": "Committed"
-      },
-      "System.Reason": {
-        "oldValue": "Work stopped",
-        "newValue": "Commitment made by the team"
+        "oldValue": "2024-10-01T20:12:24.69Z",
+        "newValue": "9999-01-01T00:00:00Z"
       },
       "System.ChangedDate": {
-        "oldValue": "2024-05-16T19:04:50.173Z",
-        "newValue": "2024-09-30T22:52:39.577Z"
+        "oldValue": "2024-10-01T17:30:51.62Z",
+        "newValue": "2024-10-01T20:12:24.69Z"
       },
       "System.Watermark": {
-        "oldValue": 1355,
-        "newValue": 1376
+        "oldValue": 1398,
+        "newValue": 1399
       },
-      "System.BoardColumn": {
-        "oldValue": "Approved",
-        "newValue": "teste"
-      },
-      "Microsoft.VSTS.Common.StateChangeDate": {
-        "oldValue": "2024-05-16T19:04:50.173Z",
-        "newValue": "2024-09-30T22:52:39.577Z"
-      },
-      "Microsoft.VSTS.Common.ActivatedDate": {
-        "newValue": "2024-09-30T22:52:39.577Z"
-      },
-      "Microsoft.VSTS.Common.ActivatedBy": {
-        "newValue": "Jailton S. Sales Jr <juniorjailton@hotmail.com>"
-      },
-      "WEF_0241EEE4F1594FA9A7E5DB4B4AF40B80_Kanban.Column": {
-        "oldValue": "Approved",
-        "newValue": "teste"
+      "System.Description": {
+        "newValue": "<div>ADOwebhook </div>"
       }
     },
     "_links": {
       "self": {
-        "href": "https://juniorjailton.visualstudio.com/ba134e3e-76b5-4eee-bcf8-4da786be4162/_apis/wit/workItems/870/updates/23"
+        "href": "https://juniorjailton.visualstudio.com/ba134e3e-76b5-4eee-bcf8-4da786be4162/_apis/wit/workItems/507/updates/11"
       },
       "workItemUpdates": {
-        "href": "https://juniorjailton.visualstudio.com/ba134e3e-76b5-4eee-bcf8-4da786be4162/_apis/wit/workItems/870/updates"
+        "href": "https://juniorjailton.visualstudio.com/ba134e3e-76b5-4eee-bcf8-4da786be4162/_apis/wit/workItems/507/updates"
       },
       "parent": {
-        "href": "https://juniorjailton.visualstudio.com/ba134e3e-76b5-4eee-bcf8-4da786be4162/_apis/wit/workItems/870"
+        "href": "https://juniorjailton.visualstudio.com/ba134e3e-76b5-4eee-bcf8-4da786be4162/_apis/wit/workItems/507"
       },
       "html": {
-        "href": "https://juniorjailton.visualstudio.com/web/wi.aspx?pcguid=6f6d98c6-1c18-45e5-85ee-8c48822dd627&id=870"
+        "href": "https://juniorjailton.visualstudio.com/web/wi.aspx?pcguid=6f6d98c6-1c18-45e5-85ee-8c48822dd627&id=507"
       }
     },
-    "url": "https://juniorjailton.visualstudio.com/ba134e3e-76b5-4eee-bcf8-4da786be4162/_apis/wit/workItems/870/updates/23",
+    "url": "https://juniorjailton.visualstudio.com/ba134e3e-76b5-4eee-bcf8-4da786be4162/_apis/wit/workItems/507/updates/11",
     "revision": {
-      "id": 870,
-      "rev": 19,
+      "id": 507,
+      "rev": 8,
       "fields": {
+        "System.AreaPath": "AZ400-DevOps\\AZ400-Frontend",
+        "System.TeamProject": "AZ400-DevOps",
+        "System.IterationPath": "AZ400-DevOps\\Sprint 1",
         "System.WorkItemType": "Product Backlog Item",
         "System.State": "Committed",
         "System.Reason": "Commitment made by the team",
-        "System.CreatedDate": "2024-05-15T14:55:31.017Z",
+        "System.CreatedDate": "2023-06-15T14:59:12.683Z",
         "System.CreatedBy": "Jailton S. Sales Jr <juniorjailton@hotmail.com>",
-        "System.ChangedDate": "2024-09-30T22:52:39.577Z",
+        "System.ChangedDate": "2024-10-01T20:12:24.69Z",
         "System.ChangedBy": "Jailton S. Sales Jr <juniorjailton@hotmail.com>",
         "System.CommentCount": 0,
-        "System.TeamProject": "AZ400-DevOps",
-        "System.AreaPath": "AZ400-DevOps\\AZ400-Frontend",
-        "System.IterationPath": "AZ400-DevOps\\Sprint 3",
-        "System.Title": "criar front end",
-        "System.BoardColumn": "teste",
+        "System.Title": "criação do pipeline",
+        "System.BoardColumn": "Committed",
         "System.BoardColumnDone": false,
-        "Microsoft.VSTS.Common.StateChangeDate": "2024-09-30T22:52:39.577Z",
-        "Microsoft.VSTS.Common.ActivatedDate": "2024-09-30T22:52:39.577Z",
+        "Microsoft.VSTS.Common.BacklogPriority": 1999985093.0,
+        "Microsoft.VSTS.Common.StateChangeDate": "2024-10-01T17:30:51.62Z",
+        "Microsoft.VSTS.Common.ActivatedDate": "2024-10-01T17:30:51.62Z",
         "Microsoft.VSTS.Common.ActivatedBy": "Jailton S. Sales Jr <juniorjailton@hotmail.com>",
         "Microsoft.VSTS.Common.Priority": 2,
         "Microsoft.VSTS.Common.ValueArea": "Business",
         "WEF_59925F60988E44A284AD3B1498331664_Kanban.Column": "New",
         "WEF_59925F60988E44A284AD3B1498331664_Kanban.Column.Done": false,
-        "WEF_0241EEE4F1594FA9A7E5DB4B4AF40B80_Kanban.Column": "teste",
+        "WEF_0241EEE4F1594FA9A7E5DB4B4AF40B80_Kanban.Column": "Committed",
         "WEF_0241EEE4F1594FA9A7E5DB4B4AF40B80_Kanban.Column.Done": false,
-        "WEF_63487119ABBF4D7AB8E7D5376A844976_Kanban.Column": "Approved",
-        "WEF_63487119ABBF4D7AB8E7D5376A844976_Kanban.Column.Done": false,
-        "Microsoft.VSTS.Common.BacklogPriority": 1999988820.0
+        "System.Description": "<div>ADOwebhook </div>",
+        "System.Parent": 505
       },
       "relations": [
         {
           "rel": "System.LinkTypes.Hierarchy-Forward",
-          "url": "https://juniorjailton.visualstudio.com/ba134e3e-76b5-4eee-bcf8-4da786be4162/_apis/wit/workItems/872",
+          "url": "https://juniorjailton.visualstudio.com/ba134e3e-76b5-4eee-bcf8-4da786be4162/_apis/wit/workItems/510",
           "attributes": {
             "isLocked": false,
             "name": "Child"
@@ -138,7 +115,7 @@
         },
         {
           "rel": "System.LinkTypes.Hierarchy-Forward",
-          "url": "https://juniorjailton.visualstudio.com/ba134e3e-76b5-4eee-bcf8-4da786be4162/_apis/wit/workItems/871",
+          "url": "https://juniorjailton.visualstudio.com/ba134e3e-76b5-4eee-bcf8-4da786be4162/_apis/wit/workItems/509",
           "attributes": {
             "isLocked": false,
             "name": "Child"
@@ -146,25 +123,45 @@
         },
         {
           "rel": "System.LinkTypes.Hierarchy-Forward",
-          "url": "https://juniorjailton.visualstudio.com/ba134e3e-76b5-4eee-bcf8-4da786be4162/_apis/wit/workItems/873",
+          "url": "https://juniorjailton.visualstudio.com/ba134e3e-76b5-4eee-bcf8-4da786be4162/_apis/wit/workItems/508",
           "attributes": {
             "isLocked": false,
             "name": "Child"
+          }
+        },
+        {
+          "rel": "System.LinkTypes.Hierarchy-Reverse",
+          "url": "https://juniorjailton.visualstudio.com/ba134e3e-76b5-4eee-bcf8-4da786be4162/_apis/wit/workItems/505",
+          "attributes": {
+            "isLocked": false,
+            "name": "Parent"
+          }
+        },
+        {
+          "rel": "ArtifactLink",
+          "url": "vstfs:///Git/Commit/ba134e3e-76b5-4eee-bcf8-4da786be4162%2F72761e4e-11af-48ac-bcc0-3249f0b59e3d%2Fdfb504e5857601362a98b008ccd61c3439893485",
+          "attributes": {
+            "authorizedDate": "2024-06-19T13:36:48.257Z",
+            "id": 10508641,
+            "resourceCreatedDate": "2024-06-19T13:36:48.257Z",
+            "resourceModifiedDate": "2024-06-19T13:36:48.257Z",
+            "revisedDate": "9999-01-01T00:00:00Z",
+            "name": "Fixed in Commit"
           }
         }
       ],
       "_links": {
         "self": {
-          "href": "https://juniorjailton.visualstudio.com/ba134e3e-76b5-4eee-bcf8-4da786be4162/_apis/wit/workItems/870/revisions/19"
+          "href": "https://juniorjailton.visualstudio.com/ba134e3e-76b5-4eee-bcf8-4da786be4162/_apis/wit/workItems/507/revisions/8"
         },
         "workItemRevisions": {
-          "href": "https://juniorjailton.visualstudio.com/ba134e3e-76b5-4eee-bcf8-4da786be4162/_apis/wit/workItems/870/revisions"
+          "href": "https://juniorjailton.visualstudio.com/ba134e3e-76b5-4eee-bcf8-4da786be4162/_apis/wit/workItems/507/revisions"
         },
         "parent": {
-          "href": "https://juniorjailton.visualstudio.com/ba134e3e-76b5-4eee-bcf8-4da786be4162/_apis/wit/workItems/870"
+          "href": "https://juniorjailton.visualstudio.com/ba134e3e-76b5-4eee-bcf8-4da786be4162/_apis/wit/workItems/507"
         }
       },
-      "url": "https://juniorjailton.visualstudio.com/ba134e3e-76b5-4eee-bcf8-4da786be4162/_apis/wit/workItems/870/revisions/19"
+      "url": "https://juniorjailton.visualstudio.com/ba134e3e-76b5-4eee-bcf8-4da786be4162/_apis/wit/workItems/507/revisions/8"
     }
   },
   "resourceVersion": "1.0",
@@ -182,5 +179,5 @@
       "baseUrl": "https://juniorjailton.visualstudio.com/"
     }
   },
-  "createdDate": "2024-09-30T22:52:46.5699644Z"
+  "createdDate": "2024-10-01T20:12:31.9458216Z"
 }
