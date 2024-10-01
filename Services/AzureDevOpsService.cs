@@ -22,7 +22,7 @@ namespace AzureDevOpsWebhook.Services
             _logger = logger;
         }
 
-        public async Task UpdateWorkItem(int workItemId, Dictionary<string, object> fieldsToUpdate)
+        public async Task UpdateWorkItem(int workItemId, List<Dictionary<string, object>> fieldsToUpdateList)
         {
             var credentials = new VssBasicCredential(string.Empty, _personalAccessToken);
             var connection = new VssConnection(new Uri(_organizationUrl), credentials);
@@ -31,17 +31,19 @@ namespace AzureDevOpsWebhook.Services
 
             var document = new Microsoft.VisualStudio.Services.WebApi.Patch.Json.JsonPatchDocument();
 
-            foreach (var field in fieldsToUpdate)
+            foreach (var fieldsToUpdate in fieldsToUpdateList)
             {
-                document.Add(
-                    new Microsoft.VisualStudio.Services.WebApi.Patch.Json.JsonPatchOperation()
-                    {
-                        Operation = Microsoft.VisualStudio.Services.WebApi.Patch.Operation.Add,
-                        Path = $"/fields/{field.Key}",
-                        Value = field.Value
-                    });
+                foreach (var field in fieldsToUpdate)
+                {
+                    document.Add(
+                        new Microsoft.VisualStudio.Services.WebApi.Patch.Json.JsonPatchOperation()
+                        {
+                            Operation = Microsoft.VisualStudio.Services.WebApi.Patch.Operation.Add,
+                            Path = $"/fields/{field.Key}",
+                            Value = field.Value
+                        });
+                }
             }
-
             await workItemClient.UpdateWorkItemAsync(document, workItemId);
         }
 
@@ -49,14 +51,28 @@ namespace AzureDevOpsWebhook.Services
         {
             // Aqui você pode salvar o WorkItem em um banco de dados.
             _logger.LogInformation($"Salvando WorkItem com Id {workItem.WorkItemId} e título {workItem.Revision.Fields["System.Title"]}");
-            _ = UpdateWorkItem(workItem.WorkItemId, new Dictionary<string, object> { { "WEF_0241EEE4F1594FA9A7E5DB4B4AF40B80_Kanban.Column", "Committed" } });
+
+            if (workItem.Revision.Fields.ContainsKey("System.Description"))
+            {
+                var description = workItem.Revision.Fields["System.Description"].ToString();
+                var textToCheck = "<div>ADOwebhook 22 </div>";
+
+                if (!description.Contains(textToCheck))
+                {
+                    _ = UpdateWorkItem(workItem.WorkItemId,
+                    [
+                        new Dictionary<string, object> { { "WEF_0241EEE4F1594FA9A7E5DB4B4AF40B80_Kanban.Column", "Committed" } },
+                        new Dictionary<string, object> { { "System.Description", description + textToCheck } }
+                    ]);
+                }
+            }
             // Salvar na tabela do banco de dados.
         }
 
         public void AnalyzeWorkItem(Resource workItem)
         {
             // Chame um serviço que irá processar o WorkItem.
-            _logger.LogInformation($"Analisando WorkItem {workItem.Id}");
+            _logger.LogInformation($"Analisando WorkItem {workItem.WorkItemId}");
             // Depois de analisar, pode atualizar o WorkItem via Azure DevOps API.
         }
 
