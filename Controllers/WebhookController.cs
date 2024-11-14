@@ -30,10 +30,10 @@ namespace AzureDevOpsWebhook.Controllers
             // Processar o payload e salvar o WorkItem
             if (payload?.Resource != null)
             {
+                _service.AnalyzeWorkItem(payload.Resource); 
                 _service.SaveWorkItem(payload.Resource);
-                _service.AnalyzeWorkItem(payload.Resource);
+                _service.UpdateWorkItem(payload.Resource);
             }
-
             return Ok();
         }
     }

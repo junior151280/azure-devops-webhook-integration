@@ -12,9 +12,7 @@ builder.Services.AddControllers();
 
 // Registrar o serviço AzureDevOpsService
 builder.Services.AddSingleton<AzureDevOpsService>();
-builder.Services.Configure<AzureDevOpsRestApi>(
-           builder.Configuration.GetSection("AzureDevOpsRestApi")
-       );
+builder.Services.Configure<AzureDevOpsRestApi>(builder.Configuration.GetSection("AzureDevOpsRestApi"));
 
 // Adicionar suporte para o Secret Manager
 builder.Configuration.AddUserSecrets<Program>();

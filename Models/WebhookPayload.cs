@@ -30,16 +30,16 @@ namespace AzureDevOpsWebhook.Models
         public int Rev { get; set; }
         public RevisedBy? RevisedBy { get; set; }
         public DateTime RevisedDate { get; set; }
-        public Dictionary<string, FieldChange> Fields { get; set; }
+        public Dictionary<string, FieldChange>? Fields { get; set; }
         public Links? Links { get; set; }
-        public string Url { get; set; }
-        public Revision Revision { get; set; }
+        public string? Url { get; set; }
+        public Revision? Revision { get; set; }
     }
 
     public class RevisedBy
     {
-        public string Id { get; set; }
-        public string DisplayName { get; set; }
+        public string? Id { get; set; }
+        public string? DisplayName { get; set; }
         public string Url { get; set; }
         public Links? Links { get; set; }
         public string UniqueName { get; set; }

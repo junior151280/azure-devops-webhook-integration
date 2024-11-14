@@ -32,14 +32,26 @@ dotnet run
 Ensure you have the following settings in your ```appsettings.json```:
 ```json
 {
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "XToken": "your-token",
   "AzureDevOpsRestApi": {
     "PersonalAccessToken": "your-personal-access-token",
-    "AzureDevOpsApiUrl": "https://dev.azure.com/",
-    "Organization": "your-organization"
+    "Organization": "your-organization",
+    "Project": "your-project",
+    "AzureDevOpsApiUrl": "https://dev.azure.com/"
   },
   "Database": {
     "ConnectionString": "database://localhost:27017",
     "DatabaseName": "AzureDevOps"
+  },
+  "AllowedHosts": "*",
+  "ApplicationInsights": {
+    "ConnectionString": "your-organization"
   }
 }
 ```
