@@ -1,3 +1,5 @@
+using Azure.Identity;
+using Azure.Security.KeyVault.Secrets;
 using AzureDevOpsWebhook.Models;
 using AzureDevOpsWebhook.Services;
 
@@ -16,6 +18,14 @@ builder.Services.Configure<AzureDevOpsRestApi>(builder.Configuration.GetSection(
 
 // Adicionar suporte para o Secret Manager
 builder.Configuration.AddUserSecrets<Program>();
+
+builder.Configuration.AddAzureKeyVault(
+    new Uri("https://kv-poc-sefaz.vault.azure.net/"),
+    new DefaultAzureCredential(new DefaultAzureCredentialOptions
+    {
+        AdditionallyAllowedTenants = { "*" }
+    })
+);
 
 var xToken = builder.Configuration["XToken"];
 builder.Services.AddApplicationInsightsTelemetry(new Microsoft.ApplicationInsights.AspNetCore.Extensions.ApplicationInsightsServiceOptions

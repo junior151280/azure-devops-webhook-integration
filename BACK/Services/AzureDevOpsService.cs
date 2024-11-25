@@ -11,6 +11,7 @@ namespace AzureDevOpsWebhook.Services
         private readonly string _personalAccessToken;
         private readonly string _organizationUrl;
         private readonly string _xToken;
+        private readonly string _pocSefaz;
         private readonly ILogger<AzureDevOpsService> _logger;
 
         public AzureDevOpsService(IConfiguration configuration, ILogger<AzureDevOpsService> logger)
@@ -19,6 +20,7 @@ namespace AzureDevOpsWebhook.Services
             _personalAccessToken = $"{_configuration["AzureDevOpsRestApi:PersonalAccessToken"]}";
             _organizationUrl = $"{_configuration["AzureDevOpsRestApi:AzureDevOpsApiUrl"]}{_configuration["AzureDevOpsRestApi:Organization"]}";
             _xToken = $"{_configuration["XToken"]}";
+            _pocSefaz = $"{_configuration["teste-poc-sefaz"]}";
             _logger = logger;
         }
         public async Task UpdateWorkItem(int workItemId, List<Dictionary<string, object>> fieldsToUpdateList)
