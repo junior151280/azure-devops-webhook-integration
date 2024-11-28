@@ -5,7 +5,7 @@ VisualStudioVersion = 17.11.35312.102
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ADOWebhook.Back", "BACK\ADOWebhook.Back.csproj", "{D2CE343A-2B1A-4B1B-BE5C-6BF9EE7E1571}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADOWebhook.Front", "FRONT\ADOWebhook.Front\ADOWebhook.Front.csproj", "{87534963-BF5B-45D7-ABF4-D0F0F2AC310F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADOWebhook.Front", "FRONT\ADOWebhook.Front.csproj", "{87534963-BF5B-45D7-ABF4-D0F0F2AC310F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

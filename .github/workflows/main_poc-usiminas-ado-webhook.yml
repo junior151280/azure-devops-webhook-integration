@@ -22,10 +22,10 @@ jobs:
           dotnet-version: '8.x'
 
       - name: restore nuget packages
-        run: dotnet restore ${{ github.workspace }}/AzureDevOpsWebhook.csproj 
+        run: dotnet restore ${{ github.workspace }}/BACK/AzureDevOpsWebhook.csproj 
 
       - name: Build with dotnet
-        run: dotnet build ${{ github.workspace }}/AzureDevOpsWebhook.csproj  --no-restore --configuration Release
+        run: dotnet build ${{ github.workspace }}/BACK/AzureDevOpsWebhook.csproj  --no-restore --configuration Release
 
       - name: dotnet publish
         run: dotnet publish -c Release -o ${{ github.workspace }}/myapp

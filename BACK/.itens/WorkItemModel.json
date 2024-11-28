@@ -1,183 +1,194 @@
 {
-  "subscriptionId": "a6cb5d4b-aefe-48a8-8d1b-05dbdf04e71f",
-  "notificationId": 14,
-  "id": "593d9ec0-e255-4446-be11-16e6e04dff79",
+  "subscriptionId": "9181be60-0a04-47cd-bc72-f3f5e855c0e2",
+  "notificationId": 1,
+  "id": "22b4265f-470f-4d05-9f81-a2976854455a",
   "eventType": "workitem.updated",
   "publisherId": "tfs",
   "message": {
-    "text": "Product Backlog Item #507 (criação do pipeline) updated by Jailton S. Sales Jr\r\n(https://juniorjailton.visualstudio.com/web/wi.aspx?pcguid=6f6d98c6-1c18-45e5-85ee-8c48822dd627&id=507)",
-    "html": "<a href=\"https://juniorjailton.visualstudio.com/web/wi.aspx?pcguid=6f6d98c6-1c18-45e5-85ee-8c48822dd627&amp;id=507\">Product Backlog Item #507</a> (cria&#231;&#227;o do pipeline) updated by Jailton S. Sales Jr",
-    "markdown": "[Product Backlog Item #507](https://juniorjailton.visualstudio.com/web/wi.aspx?pcguid=6f6d98c6-1c18-45e5-85ee-8c48822dd627&id=507) (criação do pipeline) updated by Jailton S. Sales Jr"
+    "text": "Product Backlog Item #28 (As a customer, I should be able to use Bluetooth-enabled IoT Beacon sensors for registration) updated by System Administrator\r\n(https://dev.azure.com/MngEnvMCAP162297/web/wi.aspx?pcguid=0a5ecf43-e944-49af-8dd7-bf208b97fd84&id=28)",
+    "html": "<a href=\"https://dev.azure.com/MngEnvMCAP162297/web/wi.aspx?pcguid=0a5ecf43-e944-49af-8dd7-bf208b97fd84&amp;id=28\">Product Backlog Item #28</a> (As a customer, I should be able to use Bluetooth-enabled IoT Beacon sensors for registration) updated by System Administrator",
+    "markdown": "[Product Backlog Item #28](https://dev.azure.com/MngEnvMCAP162297/web/wi.aspx?pcguid=0a5ecf43-e944-49af-8dd7-bf208b97fd84&id=28) (As a customer, I should be able to use Bluetooth-enabled IoT Beacon sensors for registration) updated by System Administrator"
   },
   "detailedMessage": {
-    "text": "Product Backlog Item #507 (criação do pipeline) updated by Jailton S. Sales Jr\r\n(https://juniorjailton.visualstudio.com/web/wi.aspx?pcguid=6f6d98c6-1c18-45e5-85ee-8c48822dd627&id=507)\r\n\r\n",
-    "html": "<a href=\"https://juniorjailton.visualstudio.com/web/wi.aspx?pcguid=6f6d98c6-1c18-45e5-85ee-8c48822dd627&amp;id=507\">Product Backlog Item #507</a> (cria&#231;&#227;o do pipeline) updated by Jailton S. Sales Jr<ul></ul>",
-    "markdown": "[Product Backlog Item #507](https://juniorjailton.visualstudio.com/web/wi.aspx?pcguid=6f6d98c6-1c18-45e5-85ee-8c48822dd627&id=507) (criação do pipeline) updated by Jailton S. Sales Jr\r\n\r\n"
+    "text": "Product Backlog Item #28 (As a customer, I should be able to use Bluetooth-enabled IoT Beacon sensors for registration) updated by System Administrator\r\n(https://dev.azure.com/MngEnvMCAP162297/web/wi.aspx?pcguid=0a5ecf43-e944-49af-8dd7-bf208b97fd84&id=28)\r\n\r\n",
+    "html": "<a href=\"https://dev.azure.com/MngEnvMCAP162297/web/wi.aspx?pcguid=0a5ecf43-e944-49af-8dd7-bf208b97fd84&amp;id=28\">Product Backlog Item #28</a> (As a customer, I should be able to use Bluetooth-enabled IoT Beacon sensors for registration) updated by System Administrator<ul></ul>",
+    "markdown": "[Product Backlog Item #28](https://dev.azure.com/MngEnvMCAP162297/web/wi.aspx?pcguid=0a5ecf43-e944-49af-8dd7-bf208b97fd84&id=28) (As a customer, I should be able to use Bluetooth-enabled IoT Beacon sensors for registration) updated by System Administrator\r\n\r\n"
   },
   "resource": {
-    "id": 11,
-    "workItemId": 507,
-    "rev": 8,
+    "id": 8,
+    "workItemId": 28,
+    "rev": 2,
     "revisedBy": {
-      "id": "45db2adc-e16c-41d5-a0ad-1354d604f274",
-      "name": "Jailton S. Sales Jr <juniorjailton@hotmail.com>",
-      "displayName": "Jailton S. Sales Jr",
-      "url": "https://spsprodeus27.vssps.visualstudio.com/A4ff7c635-ac2b-421d-8beb-6d5f8ff22398/_apis/Identities/45db2adc-e16c-41d5-a0ad-1354d604f274",
+      "id": "6f98f183-5525-6176-a299-085ae548bb36",
+      "name": "System Administrator <admin@MngEnvMCAP162297.onmicrosoft.com>",
+      "displayName": "System Administrator",
+      "url": "https://spsprodwus31.vssps.visualstudio.com/A609a1046-c516-4b45-b6ea-4158b96bb24e/_apis/Identities/6f98f183-5525-6176-a299-085ae548bb36",
       "_links": {
         "avatar": {
-          "href": "https://juniorjailton.visualstudio.com/_apis/GraphProfile/MemberAvatars/aad.Mzc5OWM4MWMtZGM1NC03NjBhLWE5MDYtNzJlMjMwNDU1NTJi"
+          "href": "https://dev.azure.com/MngEnvMCAP162297/_apis/GraphProfile/MemberAvatars/aad.NmY5OGYxODMtNTUyNS03MTc2LWEyOTktMDg1YWU1NDhiYjM2"
         }
       },
-      "uniqueName": "juniorjailton@hotmail.com",
-      "imageUrl": "https://juniorjailton.visualstudio.com/_apis/GraphProfile/MemberAvatars/aad.Mzc5OWM4MWMtZGM1NC03NjBhLWE5MDYtNzJlMjMwNDU1NTJi",
-      "descriptor": "aad.Mzc5OWM4MWMtZGM1NC03NjBhLWE5MDYtNzJlMjMwNDU1NTJi"
+      "uniqueName": "admin@MngEnvMCAP162297.onmicrosoft.com",
+      "imageUrl": "https://dev.azure.com/MngEnvMCAP162297/_apis/GraphProfile/MemberAvatars/aad.NmY5OGYxODMtNTUyNS03MTc2LWEyOTktMDg1YWU1NDhiYjM2",
+      "descriptor": "aad.NmY5OGYxODMtNTUyNS03MTc2LWEyOTktMDg1YWU1NDhiYjM2"
     },
     "revisedDate": "9999-01-01T00:00:00Z",
     "fields": {
       "System.Rev": {
-        "oldValue": 7,
-        "newValue": 8
+        "oldValue": 1,
+        "newValue": 2
       },
       "System.AuthorizedDate": {
-        "oldValue": "2024-10-01T17:30:51.62Z",
-        "newValue": "2024-10-01T20:12:24.69Z"
+        "oldValue": "2024-11-25T12:04:51.43Z",
+        "newValue": "2024-11-25T19:55:29.263Z"
       },
       "System.RevisedDate": {
-        "oldValue": "2024-10-01T20:12:24.69Z",
+        "oldValue": "2024-11-25T19:55:29.263Z",
         "newValue": "9999-01-01T00:00:00Z"
       },
       "System.ChangedDate": {
-        "oldValue": "2024-10-01T17:30:51.62Z",
-        "newValue": "2024-10-01T20:12:24.69Z"
+        "oldValue": "2024-11-25T12:04:51.43Z",
+        "newValue": "2024-11-25T19:55:29.263Z"
       },
       "System.Watermark": {
-        "oldValue": 1398,
-        "newValue": 1399
+        "oldValue": 28,
+        "newValue": 137
       },
       "System.Description": {
-        "newValue": "<div>ADOwebhook </div>"
+        "oldValue": "As a user, I should be able to able to use Bluetooth-enabled IoT Beacon sensors for registration such that:<div><br> </div><div>1. As soon as a guest enters the hotel lobby, he should be registered automatically </div>",
+        "newValue": "<div>As a user, I should be able to able to use Bluetooth-enabled IoT Beacon sensors for registration such that: </div><div><br> </div><div>1. As soon as a guest enters the hotel lobby, he should be registered automatically </div><div><br> </div><div>teste </div>"
       }
     },
     "_links": {
       "self": {
-        "href": "https://juniorjailton.visualstudio.com/ba134e3e-76b5-4eee-bcf8-4da786be4162/_apis/wit/workItems/507/updates/11"
+        "href": "https://dev.azure.com/MngEnvMCAP162297/3a364b8c-f11c-48a4-9c5d-a547a7d8675f/_apis/wit/workItems/28/updates/8"
       },
       "workItemUpdates": {
-        "href": "https://juniorjailton.visualstudio.com/ba134e3e-76b5-4eee-bcf8-4da786be4162/_apis/wit/workItems/507/updates"
+        "href": "https://dev.azure.com/MngEnvMCAP162297/3a364b8c-f11c-48a4-9c5d-a547a7d8675f/_apis/wit/workItems/28/updates"
       },
       "parent": {
-        "href": "https://juniorjailton.visualstudio.com/ba134e3e-76b5-4eee-bcf8-4da786be4162/_apis/wit/workItems/507"
+        "href": "https://dev.azure.com/MngEnvMCAP162297/3a364b8c-f11c-48a4-9c5d-a547a7d8675f/_apis/wit/workItems/28"
       },
       "html": {
-        "href": "https://juniorjailton.visualstudio.com/web/wi.aspx?pcguid=6f6d98c6-1c18-45e5-85ee-8c48822dd627&id=507"
+        "href": "https://dev.azure.com/MngEnvMCAP162297/web/wi.aspx?pcguid=0a5ecf43-e944-49af-8dd7-bf208b97fd84&id=28"
       }
     },
-    "url": "https://juniorjailton.visualstudio.com/ba134e3e-76b5-4eee-bcf8-4da786be4162/_apis/wit/workItems/507/updates/11",
+    "url": "https://dev.azure.com/MngEnvMCAP162297/3a364b8c-f11c-48a4-9c5d-a547a7d8675f/_apis/wit/workItems/28/updates/8",
     "revision": {
-      "id": 507,
-      "rev": 8,
+      "id": 28,
+      "rev": 2,
       "fields": {
-        "System.AreaPath": "AZ400-DevOps\\AZ400-Frontend",
-        "System.TeamProject": "AZ400-DevOps",
-        "System.IterationPath": "AZ400-DevOps\\Sprint 1",
+        "System.AreaPath": "SmartHotel360",
+        "System.TeamProject": "SmartHotel360",
+        "System.IterationPath": "SmartHotel360\\Sprint 2",
         "System.WorkItemType": "Product Backlog Item",
-        "System.State": "Committed",
-        "System.Reason": "Commitment made by the team",
-        "System.CreatedDate": "2023-06-15T14:59:12.683Z",
-        "System.CreatedBy": "Jailton S. Sales Jr <juniorjailton@hotmail.com>",
-        "System.ChangedDate": "2024-10-01T20:12:24.69Z",
-        "System.ChangedBy": "Jailton S. Sales Jr <juniorjailton@hotmail.com>",
+        "System.State": "Approved",
+        "System.Reason": "Approved by the Product Owner",
+        "System.CreatedDate": "2024-11-25T12:04:51.43Z",
+        "System.CreatedBy": "System Administrator <admin@MngEnvMCAP162297.onmicrosoft.com>",
+        "System.ChangedDate": "2024-11-25T19:55:29.263Z",
+        "System.ChangedBy": "System Administrator <admin@MngEnvMCAP162297.onmicrosoft.com>",
         "System.CommentCount": 0,
-        "System.Title": "criação do pipeline",
-        "System.BoardColumn": "Committed",
+        "System.Title": "As a customer, I should be able to use Bluetooth-enabled IoT Beacon sensors for registration",
+        "System.BoardColumn": "Approved",
         "System.BoardColumnDone": false,
-        "Microsoft.VSTS.Common.BacklogPriority": 1999985093.0,
-        "Microsoft.VSTS.Common.StateChangeDate": "2024-10-01T17:30:51.62Z",
-        "Microsoft.VSTS.Common.ActivatedDate": "2024-10-01T17:30:51.62Z",
-        "Microsoft.VSTS.Common.ActivatedBy": "Jailton S. Sales Jr <juniorjailton@hotmail.com>",
+        "System.BoardLane": "Expedite",
+        "Microsoft.VSTS.Scheduling.RemainingWork": 0.0,
+        "Microsoft.VSTS.Common.StateChangeDate": "2024-11-25T12:04:51.43Z",
         "Microsoft.VSTS.Common.Priority": 2,
         "Microsoft.VSTS.Common.ValueArea": "Business",
-        "WEF_59925F60988E44A284AD3B1498331664_Kanban.Column": "New",
-        "WEF_59925F60988E44A284AD3B1498331664_Kanban.Column.Done": false,
-        "WEF_0241EEE4F1594FA9A7E5DB4B4AF40B80_Kanban.Column": "Committed",
-        "WEF_0241EEE4F1594FA9A7E5DB4B4AF40B80_Kanban.Column.Done": false,
-        "System.Description": "<div>ADOwebhook </div>",
-        "System.Parent": 505
+        "Microsoft.VSTS.Scheduling.Effort": 12.0,
+        "WEF_C4E581686E824422815F2133376462FA_Kanban.Column": "Approved",
+        "WEF_C4E581686E824422815F2133376462FA_Kanban.Column.Done": false,
+        "WEF_C4E581686E824422815F2133376462FA_Kanban.Lane": "Expedite",
+        "System.Description": "<div>As a user, I should be able to able to use Bluetooth-enabled IoT Beacon sensors for registration such that: </div><div><br> </div><div>1. As soon as a guest enters the hotel lobby, he should be registered automatically </div><div><br> </div><div>teste </div>",
+        "System.Tags": "Registration",
+        "System.Parent": 5
       },
       "relations": [
         {
           "rel": "System.LinkTypes.Hierarchy-Forward",
-          "url": "https://juniorjailton.visualstudio.com/ba134e3e-76b5-4eee-bcf8-4da786be4162/_apis/wit/workItems/510",
+          "url": "https://dev.azure.com/MngEnvMCAP162297/3a364b8c-f11c-48a4-9c5d-a547a7d8675f/_apis/wit/workItems/67",
           "attributes": {
             "isLocked": false,
-            "name": "Child"
-          }
-        },
-        {
-          "rel": "System.LinkTypes.Hierarchy-Forward",
-          "url": "https://juniorjailton.visualstudio.com/ba134e3e-76b5-4eee-bcf8-4da786be4162/_apis/wit/workItems/509",
-          "attributes": {
-            "isLocked": false,
-            "name": "Child"
-          }
-        },
-        {
-          "rel": "System.LinkTypes.Hierarchy-Forward",
-          "url": "https://juniorjailton.visualstudio.com/ba134e3e-76b5-4eee-bcf8-4da786be4162/_apis/wit/workItems/508",
-          "attributes": {
-            "isLocked": false,
+            "comment": "Making a new link for the dependency",
             "name": "Child"
           }
         },
         {
           "rel": "System.LinkTypes.Hierarchy-Reverse",
-          "url": "https://juniorjailton.visualstudio.com/ba134e3e-76b5-4eee-bcf8-4da786be4162/_apis/wit/workItems/505",
+          "url": "https://dev.azure.com/MngEnvMCAP162297/3a364b8c-f11c-48a4-9c5d-a547a7d8675f/_apis/wit/workItems/5",
           "attributes": {
             "isLocked": false,
+            "comment": "Making a new link for the dependency",
             "name": "Parent"
           }
         },
         {
-          "rel": "ArtifactLink",
-          "url": "vstfs:///Git/Commit/ba134e3e-76b5-4eee-bcf8-4da786be4162%2F72761e4e-11af-48ac-bcc0-3249f0b59e3d%2Fdfb504e5857601362a98b008ccd61c3439893485",
+          "rel": "System.LinkTypes.Hierarchy-Forward",
+          "url": "https://dev.azure.com/MngEnvMCAP162297/3a364b8c-f11c-48a4-9c5d-a547a7d8675f/_apis/wit/workItems/76",
           "attributes": {
-            "authorizedDate": "2024-06-19T13:36:48.257Z",
-            "id": 10508641,
-            "resourceCreatedDate": "2024-06-19T13:36:48.257Z",
-            "resourceModifiedDate": "2024-06-19T13:36:48.257Z",
-            "revisedDate": "9999-01-01T00:00:00Z",
-            "name": "Fixed in Commit"
+            "isLocked": false,
+            "comment": "Making a new link for the dependency",
+            "name": "Child"
+          }
+        },
+        {
+          "rel": "System.LinkTypes.Hierarchy-Forward",
+          "url": "https://dev.azure.com/MngEnvMCAP162297/3a364b8c-f11c-48a4-9c5d-a547a7d8675f/_apis/wit/workItems/102",
+          "attributes": {
+            "isLocked": false,
+            "comment": "Making a new link for the dependency",
+            "name": "Child"
+          }
+        },
+        {
+          "rel": "System.LinkTypes.Hierarchy-Forward",
+          "url": "https://dev.azure.com/MngEnvMCAP162297/3a364b8c-f11c-48a4-9c5d-a547a7d8675f/_apis/wit/workItems/39",
+          "attributes": {
+            "isLocked": false,
+            "comment": "Making a new link for the dependency",
+            "name": "Child"
+          }
+        },
+        {
+          "rel": "System.LinkTypes.Hierarchy-Forward",
+          "url": "https://dev.azure.com/MngEnvMCAP162297/3a364b8c-f11c-48a4-9c5d-a547a7d8675f/_apis/wit/workItems/75",
+          "attributes": {
+            "isLocked": false,
+            "comment": "Making a new link for the dependency",
+            "name": "Child"
           }
         }
       ],
       "_links": {
         "self": {
-          "href": "https://juniorjailton.visualstudio.com/ba134e3e-76b5-4eee-bcf8-4da786be4162/_apis/wit/workItems/507/revisions/8"
+          "href": "https://dev.azure.com/MngEnvMCAP162297/3a364b8c-f11c-48a4-9c5d-a547a7d8675f/_apis/wit/workItems/28/revisions/2"
         },
         "workItemRevisions": {
-          "href": "https://juniorjailton.visualstudio.com/ba134e3e-76b5-4eee-bcf8-4da786be4162/_apis/wit/workItems/507/revisions"
+          "href": "https://dev.azure.com/MngEnvMCAP162297/3a364b8c-f11c-48a4-9c5d-a547a7d8675f/_apis/wit/workItems/28/revisions"
         },
         "parent": {
-          "href": "https://juniorjailton.visualstudio.com/ba134e3e-76b5-4eee-bcf8-4da786be4162/_apis/wit/workItems/507"
+          "href": "https://dev.azure.com/MngEnvMCAP162297/3a364b8c-f11c-48a4-9c5d-a547a7d8675f/_apis/wit/workItems/28"
         }
       },
-      "url": "https://juniorjailton.visualstudio.com/ba134e3e-76b5-4eee-bcf8-4da786be4162/_apis/wit/workItems/507/revisions/8"
+      "url": "https://dev.azure.com/MngEnvMCAP162297/3a364b8c-f11c-48a4-9c5d-a547a7d8675f/_apis/wit/workItems/28/revisions/2"
     }
   },
   "resourceVersion": "1.0",
   "resourceContainers": {
     "collection": {
-      "id": "6f6d98c6-1c18-45e5-85ee-8c48822dd627",
-      "baseUrl": "https://juniorjailton.visualstudio.com/"
+      "id": "0a5ecf43-e944-49af-8dd7-bf208b97fd84",
+      "baseUrl": "https://dev.azure.com/MngEnvMCAP162297/"
     },
     "account": {
-      "id": "4ff7c635-ac2b-421d-8beb-6d5f8ff22398",
-      "baseUrl": "https://juniorjailton.visualstudio.com/"
+      "id": "609a1046-c516-4b45-b6ea-4158b96bb24e",
+      "baseUrl": "https://dev.azure.com/MngEnvMCAP162297/"
     },
     "project": {
-      "id": "ba134e3e-76b5-4eee-bcf8-4da786be4162",
-      "baseUrl": "https://juniorjailton.visualstudio.com/"
+      "id": "3a364b8c-f11c-48a4-9c5d-a547a7d8675f",
+      "baseUrl": "https://dev.azure.com/MngEnvMCAP162297/"
     }
   },
-  "createdDate": "2024-10-01T20:12:31.9458216Z"
+  "createdDate": "2024-11-25T19:55:35.9499351Z"
 }

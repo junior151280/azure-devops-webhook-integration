@@ -1,15 +1,23 @@
 {
   "dependencies": {
-    "appInsights1": {
-      "secretStore": "LocalSecretsFile",
-      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/microsoft.insights/components/poc-usiminas-ado-webhook",
-      "type": "appInsights.azure",
-      "connectionId": "APPLICATIONINSIGHTS_CONNECTION_STRING",
-      "dynamicId": null
-    },
     "secrets1": {
       "type": "secrets.user",
       "dynamicId": null
+    },
+    "mongodb1": {
+      "containerPorts": "27017:27017",
+      "secretStore": "LocalSecretsFile",
+      "containerName": "ADOWebhook",
+      "containerImage": "ADOWebhook-PoC-Usiminas",
+      "type": "mongodb.container",
+      "connectionId": "COSMOSDB_CONNECTIONSTRING",
+      "dynamicId": null
+    },
+    "appInsights1": {
+      "secretStore": "LocalSecretsFile",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/microsoft.insights/components/api-poc-usiminas",
+      "type": "appInsights.azure",
+      "connectionId": "APPLICATIONINSIGHTS_CONNECTION_STRING"
     }
   }
 }

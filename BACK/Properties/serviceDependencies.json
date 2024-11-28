@@ -1,13 +1,17 @@
 {
   "dependencies": {
-    "appInsights1": {
-      "type": "appInsights",
-      "connectionId": "APPLICATIONINSIGHTS_CONNECTION_STRING",
-      "dynamicId": null
-    },
     "secrets1": {
       "type": "secrets",
       "dynamicId": null
+    },
+    "mongodb1": {
+      "type": "mongodb",
+      "connectionId": "COSMOSDB_CONNECTIONSTRING",
+      "dynamicId": null
+    },
+    "appInsights1": {
+      "type": "appInsights",
+      "connectionId": "APPLICATIONINSIGHTS_CONNECTION_STRING"
     }
   }
 }

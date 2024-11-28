@@ -1,4 +1,4 @@
-﻿namespace AzureDevOpsWebhook.Models
+﻿namespace ADOWebhook.Back.Models
 {
     public class AzureDevOpsRestApi
     {

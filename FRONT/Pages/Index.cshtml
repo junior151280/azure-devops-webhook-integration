@@ -1,0 +1,91 @@
+﻿@page
+@model IndexModel
+
+@{
+    ViewData["Title"] = "WorkItem To Approve";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Listas de Workitems para serem aprovados</h1>
+
+    @if (Model.Fields.Count == 0)
+    {
+        <p>Nenhum documento encontrado.</p>
+    }
+    else
+    {
+        <table class="table table-striped table-hover">
+            <thead>
+                <tr>
+                    <!-- Renderiza dinamicamente os cabeçalhos -->
+                    @* @foreach (var key in Model.Fields.First().Keys)
+                    {
+                        <th>@key</th>
+                    } *@
+                    <th>WorkItemId</th>
+                    <th>Title</th>
+                    <th>State</th>
+                    <th>AreaPath</th>
+                    <th>IterationPath</th>
+                    <th>State Approval</th>
+                    <th>Aprovar</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Renderiza dinamicamente os valores -->
+                    @foreach (var doc in Model.Fields)
+                    {
+                    <tr>
+                        <td>@doc["workItemId"]</td>
+                        <td>@doc["System.Title"]</td>
+                        <td>@doc["System.State"]</td>
+                        <td>@doc["System.AreaPath"]</td>
+                        <td>@doc["System.IterationPath"]</td>
+                        <td>@doc["Custom.Approval"]</td>
+                        <td>
+                            <button class="btn btn-primary" onclick="editWorkItem(@doc["workItemId"])">Aprovar</button>
+                        </td>
+                    </tr>
+                    }
+                @* @foreach (var doc in Model.Fields)
+                {
+                    <tr>
+                        @foreach (var value in doc.Values)
+                        {
+                            <td>@value</td>
+                        }
+                        <td>
+                            <button class="btn btn-primary" onclick="editWorkItem(@doc["workItemId"])">Aprovar</button>
+                        </td>
+                    </tr>
+                } *@
+            </tbody>
+        </table>
+    }
+</div>
+
+@section Scripts {
+    <script>
+        function editWorkItem(workItemId) {
+            // Exibe um prompt (sim ou não) para confirmar a aprovação do WorkItem
+            const yesOrNo = confirm('Confirma a aprovação do WorkItem?');
+            if (yesOrNo) {
+                fetch(`https://adowebhook-back.azurewebsites.net/api/CosmosDB/${workItemId}`, {
+                    method: 'PUT',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                            body: JSON.stringify({ fieldName: 'Custom.Approval', fieldValue: 'Approved' })
+                })
+                .then(response => {
+                    if (response.ok) {
+                        alert("WorkItem atualizado com sucesso!");
+                        location.reload();
+                    } else {
+                        alert("Erro ao atualizar o WorkItem.");
+                    }
+                });
+            }
+        }
+    </script>
+}
